@@ -33,6 +33,10 @@
           {
             "resourceName": "apigusEast1SMSAPIsenSMSpost",
             "config": {}
+          },
+          {
+            "resourceName": "apigusEast1MIAPIenviarMensajepost",
+            "config": {}
           }
         ]
       }
@@ -59,6 +63,25 @@
           "enableCORS": false,
           "stageMode": 0,
           "stageName": "Prod",
+          "mode": 0
+        }
+      },
+      "apigusEast1MIAPIenviarMensajepost": {
+        "name": "apigusEast1MIAPIenviarMensajepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "MIAPI",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "enviar-mensaje",
+          "resourcePath": "/enviar-mensaje",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
           "mode": 0
         }
       }
@@ -88,7 +111,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1580072929188
+    "lastSave": 1580073446795
   },
   "VCS_STATE": {
     "provider": "GitHub",
