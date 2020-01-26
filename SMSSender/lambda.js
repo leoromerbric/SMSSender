@@ -25,7 +25,7 @@ exports.handler = function (event, context, callback) {
 		PhoneNumber: receiver
 	}).promise()
 		.then(data => {
-			console.log("Sent message to", receiver);
+			console.log("Sent message to - BCH Log", receiver);
 			callback(null, data);
 		})
 		.catch(err => {
