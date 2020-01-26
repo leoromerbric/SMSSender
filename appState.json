@@ -43,25 +43,6 @@
     ],
     "currentFileId": "5815a647-a5b9-4286-9601-915e678d6bae",
     "resources": {
-      "apigusEast1SMSGatewaysenSMSpost": {
-        "name": "apigusEast1SMSGatewaysenSMSpost",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiMode": 0,
-          "apiName": "SMSGateway",
-          "endpointType": "EDGE",
-          "resourceMode": 0,
-          "resourceName": "senSMS",
-          "resourcePath": "/senSMS",
-          "restMethod": "POST",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 0,
-          "stageName": "prod",
-          "mode": 0
-        }
-      },
       "apigusEast1SMSAPIsenSMSpost": {
         "name": "apigusEast1SMSAPIsenSMSpost",
         "type": "API_GATEWAY",
@@ -107,7 +88,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1580072218174
+    "lastSave": 1580072929188
   },
   "VCS_STATE": {
     "provider": "GitHub",
